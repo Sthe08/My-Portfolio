@@ -1,5 +1,18 @@
 {
-    "rewrites": [
-      { "source": "/(.*)", "destination": "/" }
-    ]
-  }
+  "version": 2,
+  "projects": {
+    // If your project is not recognized, you can omit or adjust this block
+  },
+  "builds": [
+    {
+      "src": "My_Portfolio/index.html",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "My_Portfolio/$1"
+    }
+  ]
+}
