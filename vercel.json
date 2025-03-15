@@ -5,7 +5,7 @@
   },
   "builds": [
     {
-      "src": "My_Portfolio/index.html",
+      "src": "My_Portfolio/Index.html",
       "use": "@vercel/static"
     }
   ],
